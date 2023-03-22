@@ -1,12 +1,15 @@
 //Tipografica
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-$fuente_principal: Arial, Helvetica, sans-serif;
+
+$fuente_principal:'Playfair Display', serif;
 // colores
 $negro: #000000;
 $blanco: #ffffff;
 // Colores principales
 $fondo:#151515;
 $gris:#858585;
+$verde: #5ADBA2;
 
 $movil: 480px;
 $tablet: 768px;
