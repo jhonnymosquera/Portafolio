@@ -2,6 +2,7 @@ import React from "react";
 import Redes from "../components/Redes";
 import Habilidades from "../components/Habilidades";
 import Contact_button from "../components/Contact_button";
+import Proyectos from "../components/Proyectos";
 
 function HomePage() {
   return (
@@ -30,6 +31,8 @@ function HomePage() {
       <Habilidades />
 
       <hr />
+
+      <Proyectos />
     </main>
   );
 }
