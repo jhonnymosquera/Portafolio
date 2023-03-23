@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "News Homepage",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "img": {
+      "avif": "projects/home_page.avif",
+      "webp": "projects/home_page.webp",
+      "png": "projects/home_page.png",
+      "alt": "News Homepage"
+    },
+    "urls": {
+      "repository": "https://github.com/jhonnymosquera/news-homepage",
+      "live": "https://news-homepage-jjmm.netlify.app/"
+    }
+  },
+  {
+    "id": 2,
+    "title": "News Homepage",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "img": {
+      "avif": "projects/home_page.avif",
+      "webp": "projects/home_page.webp",
+      "png": "projects/home_page.png",
+      "alt": "News Homepage"
+    },
+    "urls": {
+      "repository": "https://github.com/jhonnymosquera/news-homepage",
+      "live": "https://news-homepage-jjmm.netlify.app/"
+    }
+  }
+]

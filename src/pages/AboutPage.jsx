@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function AboutPage() {
-	return <main>AboutPage</main>;
+  return <main>AboutPage</main>;
 }
 
 export default AboutPage;

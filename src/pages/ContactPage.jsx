@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function ContactPage() {
-	return <main>ContactPage</main>;
+  return <main>ContactPage</main>;
 }
 
 export default ContactPage;
