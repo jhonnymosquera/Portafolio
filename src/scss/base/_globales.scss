@@ -50,6 +50,10 @@ img {
   display: block;
 }
 
+.app {
+  background-color: v.$fondo-layout;
+}
+
 .container {
   width: min(95%, 1200rem);
   margin: 0 auto;
