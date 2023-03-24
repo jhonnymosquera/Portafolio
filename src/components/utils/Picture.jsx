@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Picture({ img, className }) {
+  console.log(img);
   return (
     <picture className={className}>
       <source srcSet={img.avif} type="image/avif" />

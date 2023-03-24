@@ -1,7 +1,7 @@
 import { Context } from "./Context";
 import perfil from "../data/perfil.json";
 import habilidades from "../data/habilidades.json";
-import proyectos from "../components/Proyectos";
+import proyectos from "../data/Proyectos";
 
 function ContextProvider({ children }) {
   return (

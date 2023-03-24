@@ -1,9 +1,10 @@
 import React from "react";
 import useContexApp from "../Context/useContextApp";
 import Contact_button from "./Contact_button";
+import Proyecto from "./Proyecto";
 
 export default function Proyectos() {
-  let {} = useContexApp();
+  let { proyectos } = useContexApp();
 
   return (
     <div className="proyectos">
@@ -12,6 +13,12 @@ export default function Proyectos() {
 
         <Contact_button />
       </header>
+
+      <div className="proyectos__container">
+        {proyectos.map((proyecto) => (
+          <Proyecto key={proyecto.id} proyecto={proyecto} />
+        ))}
+      </div>
     </div>
   );
 }

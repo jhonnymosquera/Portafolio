@@ -4,8 +4,8 @@
     "title": "News Homepage",
     "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "img": {
-      "avif": "projects/home_page.avif",
-      "webp": "projects/home_page.webp",
+      "avif": "",
+      "webp": "",
       "png": "projects/home_page.png",
       "alt": "News Homepage"
     },
@@ -19,9 +19,9 @@
     "title": "News Homepage",
     "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "img": {
-      "avif": "projects/home_page.avif",
-      "webp": "projects/home_page.webp",
-      "png": "projects/home_page.png",
+      "avif": "",
+      "webp": "",
+      "png": "projects/tip_calculator.png",
       "alt": "News Homepage"
     },
     "urls": {
