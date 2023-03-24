@@ -11,7 +11,7 @@ function Routers() {
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/contact" element={<ContactPage />} />
-      <Route path="/" element={<NotFundPage />} />
+      <Route path="*" element={<NotFundPage />} />
     </Routes>
   );
 }

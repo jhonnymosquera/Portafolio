@@ -1,10 +1,13 @@
 import React from "react";
+import useContexApp from "../Context/useContextApp";
 
 function Redes() {
+  let { perfil } = useContexApp();
+
   return (
     <div className="redes">
       <div className="redes_nombre">
-        <p>Jhonny Mosquera</p>
+        <p>{perfil.name} </p>
       </div>
 
       <div className="redes_icono">

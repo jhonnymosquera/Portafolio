@@ -4,29 +4,29 @@
     "title": "News Homepage",
     "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "img": {
-      "avif": "",
-      "webp": "",
+      "avif": "projects/home_page.avif",
+      "webp": "projects/home_page.webp",
       "png": "projects/home_page.png",
       "alt": "News Homepage"
     },
     "urls": {
-      "repository": "https://github.com/jhonnymosquera/news-homepage",
-      "live": "https://news-homepage-jjmm.netlify.app/"
+      "live": "https://news-homepage-jjmm.netlify.app/",
+      "repository": "https://github.com/jhonnymosquera/news-homepage"
     }
   },
   {
     "id": 2,
-    "title": "News Homepage",
+    "title": "Tip Calculator",
     "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "img": {
-      "avif": "",
-      "webp": "",
+      "avif": "projects/tip_calculator.avif",
+      "webp": "projects/tip_calculator.webp",
       "png": "projects/tip_calculator.png",
       "alt": "News Homepage"
     },
     "urls": {
-      "repository": "https://github.com/jhonnymosquera/news-homepage",
-      "live": "https://news-homepage-jjmm.netlify.app/"
+      "live": "https://news-homepage-jjmm.netlify.app/",
+      "repository": "https://github.com/jhonnymosquera/news-homepage"
     }
   }
 ]
