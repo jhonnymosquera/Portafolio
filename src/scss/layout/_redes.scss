@@ -1,0 +1,25 @@
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &_nombre {
+    font-weight: bold;
+    margin-bottom: 10rem;
+  }
+
+  &_icono {
+    width: 130rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 18rem;
+  }
+
+  &_icono:nth-child(2) {
+    img {
+      width: 18.5rem;
+    }
+  }
+}

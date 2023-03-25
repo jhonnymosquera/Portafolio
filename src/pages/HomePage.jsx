@@ -22,6 +22,12 @@ function HomePage() {
 
       <Proyectos />
       <Contact />
+
+      <hr />
+
+      <footer className="footer">
+        <Redes />
+      </footer>
     </main>
   );
 }

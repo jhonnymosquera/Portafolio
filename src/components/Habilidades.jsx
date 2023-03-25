@@ -1,5 +1,5 @@
-import React from "react";
-import useContexApp from "../Context/useContextApp";
+import React from 'react';
+import useContexApp from '../Context/useContextApp';
 
 function Habilidades() {
   let { habilidades } = useContexApp();

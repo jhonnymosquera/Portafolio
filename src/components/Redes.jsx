@@ -20,6 +20,14 @@ function Redes() {
         </a>
 
         <a
+          href="https://www.frontendmentor.io/profile/jhonnymosquera"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="frontendmentor.png" alt="icono frontend mentor" />
+        </a>
+
+        <a
           href="https://www.linkedin.com/in/jhonny-mosquera-a0a14111b/"
           target="_blank"
           rel="noopener noreferrer"

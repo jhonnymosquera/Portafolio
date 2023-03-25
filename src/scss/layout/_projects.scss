@@ -1,0 +1,30 @@
+@use 'base/variables' as v;
+
+.proyectos {
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30rem;
+  }
+
+  &_container {
+    &_item {
+      &_img {
+        margin-bottom: 20rem;
+      }
+      &_desc {
+        h3 {
+          text-transform: uppercase;
+          font-family: v.$fuente_1;
+        }
+
+        &_tec {
+          display: flex;
+          width: 250rem;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

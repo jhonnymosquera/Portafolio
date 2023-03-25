@@ -1,4 +1,4 @@
-@use "variables" as v;
+@use 'variables' as v;
 
 html {
   font-size: 6.25%; /*  1rem = 1px */
@@ -55,6 +55,18 @@ img {
 }
 
 .container {
-  width: min(95%, 1200rem);
+  width: min(90%, 1200rem);
   margin: 0 auto;
+}
+
+hr {
+  margin: 30rem 0;
+}
+
+.contac_button {
+  width: 120rem;
+  padding-bottom: 10rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid v.$verde;
 }

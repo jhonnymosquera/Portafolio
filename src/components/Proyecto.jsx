@@ -1,17 +1,17 @@
-import React from "react";
-import Picture from "./utils/Picture";
+import React from 'react';
+import Picture from './utils/Picture';
 
 function Proyecto({ proyecto }) {
-  let { tittle, img, technologies, urls } = proyecto;
+  let { title, img, technologies, urls } = proyecto;
 
   return (
     <div className="proyectos_container_item">
       <div className="proyectos_container_item_img">
-        <Picture img={proyecto.img} />
+        <Picture img={img} />
       </div>
 
       <div className="proyectos_container_item_desc">
-        <h3>{proyecto.title}</h3>
+        <h3>{title}</h3>
 
         <div className="proyectos_container_item_desc_tec">
           {technologies.map((tec) => (
@@ -19,7 +19,7 @@ function Proyecto({ proyecto }) {
           ))}
         </div>
 
-        <div className="proyectos_container_item_desc_tec">
+        <div className="proyectos_container_item_desc_links">
           <a href={urls.live} target="_blank" rel="noopener noreferrer">
             Ver Proyecto
           </a>

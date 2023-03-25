@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default function Contact_button() {
   return (
-    <div>
+    <div className="contac_button">
       <a href="#">Contactame</a>
     </div>
   );
