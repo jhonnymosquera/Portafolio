@@ -4,8 +4,8 @@
     "title": "News Homepage",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "img": {
-      "avif": "",
-      "webp": "",
+      "avif": "projects/home_page.avif",
+      "webp": "projects/home_page.webp",
       "png": "projects/home_page.png",
       "alt": "News Homepage"
     },
@@ -19,29 +19,74 @@
     "title": "Tip Calculator",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "img": {
-      "avif": "",
-      "webp": "",
+      "avif": "projects/tip_calculator.avif",
+      "webp": "projects/tip_calculator.webp",
       "png": "projects/tip_calculator.png",
-      "alt": "News Homepage"
+      "alt": "Tip Calculator"
     },
     "urls": {
-      "live": "https://news-homepage-jjmm.netlify.app/",
-      "repository": "https://github.com/jhonnymosquera/news-homepage"
+      "live": "https://tip-calculator-jjmm.netlify.app/",
+      "repository": "https://github.com/jhonnymosquera/tip-calculator-app"
     }
   },
   {
     "id": 3,
-    "title": "Tip Calculator",
+    "title": "Advice Generator",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "img": {
-      "avif": "",
-      "webp": "",
+      "avif": "projects/adivice_generator.avif",
+      "webp": "projects/adivice_generator.webp",
       "png": "projects/adivice_generator.png",
-      "alt": "News Homepage"
+      "alt": "Advice Generator"
     },
     "urls": {
       "live": "https://advice-generator-app-jjmm.netlify.app/",
       "repository": "https://github.com/jhonnymosquera/advice-generator-app"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Interactive Card Details",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "img": {
+      "avif": "projects/interactive_card.avif",
+      "webp": "projects/interactive_card.webp",
+      "png": "projects/interactive_card.png",
+      "alt": "Interactive Card Details"
+    },
+    "urls": {
+      "live": "https://lovely-baklava-f29e1e-jjmm.netlify.app/",
+      "repository": "https://github.com/jhonnymosquera/Interactive-card-details-form"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Notificaciones",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "img": {
+      "avif": "projects/notifications.avif",
+      "webp": "projects/notifications.webp",
+      "png": "projects/notifications.png",
+      "alt": "Notificaciones"
+    },
+    "urls": {
+      "live": "https://notifications-jjmm.netlify.app/",
+      "repository": "https://github.com/jhonnymosquera/notifications"
+    }
+  },
+  {
+    "id": 6,
+    "title": "chart component",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "img": {
+      "avif": "projects/expenses_chart_component.avif",
+      "webp": "projects/expenses_chart_component.webp",
+      "png": "projects/expenses_chart_component.png",
+      "alt": "chart component"
+    },
+    "urls": {
+      "live": "https://expoenses-chart-component-jjmm.netlify.app/",
+      "repository": "https://github.com/jhonnymosquera/expoenses-chart-component"
     }
   }
 ]

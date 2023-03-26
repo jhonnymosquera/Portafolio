@@ -21,6 +21,6 @@ export default function Perfil() {
 
         <Contact_button />
       </div>
-    </div>
+    </div >
   );
 }

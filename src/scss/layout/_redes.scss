@@ -1,7 +1,7 @@
 @use 'base/mixins' as m;
 
 .redes {
-  margin-top: 20rem;
+  padding-top: 20rem;
   @include m.flex-column-center;
 
   @include m.movil {
