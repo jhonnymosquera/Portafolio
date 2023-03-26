@@ -21,6 +21,14 @@
     align-items: center;
 
     margin-bottom: 18rem;
+
+    a {
+      transition: 400ms;
+
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
   }
 
   &_icono:nth-child(2) {
