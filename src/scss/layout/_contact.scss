@@ -1,0 +1,88 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contact {
+  @include m.flex-column-center;
+  background-color: v.$fondo-gris;
+
+  padding: 50rem 20rem;
+  text-align: center;
+
+  &_container {
+    @include m.tablet {
+      width: 500rem;
+    }
+
+    @include m.desktop {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+
+  @include m.movil {
+  }
+
+  &_desc {
+    margin-bottom: 30rem;
+
+    @include m.desktop {
+      width: 400rem;
+    }
+
+    h2 {
+      margin-bottom: 20rem;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    h2,
+    p {
+      @include m.desktop {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.form {
+  @include m.desktop {
+    width: 500rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20rem;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    border-bottom: 2px solid v.$gris;
+    padding: 20rem 0;
+
+    &::placeholder {
+      text-transform: uppercase;
+    }
+  }
+
+  input[type='submit'] {
+    width: 140rem;
+    border-color: v.$verde;
+    text-transform: uppercase;
+    align-self: flex-end;
+    transition: 300ms;
+    cursor: pointer;
+
+    &:hover {
+      scale: 1.2 1.2;
+    }
+  }
+}
+
+.pdd {
+  padding: 0 20rem;
+}

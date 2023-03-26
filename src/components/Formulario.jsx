@@ -1,10 +1,15 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class Formulario extends Component {
   render() {
     return (
-      <form>
-        <input type="text" placeholder="Nombre" name="nama" />
+      <form
+        className="form"
+        target="_blank"
+        action="https://formsubmit.co/jhonnymosquera16@gmail.com"
+        method="POST"
+      >
+        <input type="text" placeholder="Nombre" name="name" />
 
         <input type="email" placeholder="Correo" name="email" />
 
@@ -12,10 +17,10 @@ export default class Formulario extends Component {
           name="message"
           placeholder="Mensaje"
           cols="30"
-          rows="10"
+          rows="5"
         ></textarea>
 
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar Mensaje" />
       </form>
     );
   }

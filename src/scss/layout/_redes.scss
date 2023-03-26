@@ -1,7 +1,13 @@
+@use 'base/mixins' as m;
+
 .redes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 20rem;
+  @include m.flex-column-center;
+
+  @include m.movil {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   &_nombre {
     font-weight: bold;

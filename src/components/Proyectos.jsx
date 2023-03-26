@@ -14,7 +14,7 @@ export default function Proyectos() {
         <Contact_button />
       </header>
 
-      <div className="proyectos__container">
+      <div className="proyectos_container">
         {proyectos.map((proyecto) => (
           <Proyecto key={proyecto.id} proyecto={proyecto} />
         ))}

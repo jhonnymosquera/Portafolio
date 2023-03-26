@@ -1,6 +1,9 @@
 @use 'base/variables' as v;
+@use 'base/mixins' as m;
 
 .proyectos {
+  padding-bottom: 100rem;
+
   &_header {
     display: flex;
     justify-content: space-between;
@@ -9,6 +12,16 @@
   }
 
   &_container {
+    display: grid;
+    gap: 20rem;
+
+    @include m.tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include m.desktop {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
     &_item {
       &_img {
         margin-bottom: 20rem;
@@ -21,8 +34,34 @@
 
         &_tec {
           display: flex;
-          width: 250rem;
+          width: 200rem;
           justify-content: space-between;
+          margin-top: 5rem;
+          margin-bottom: 30rem;
+
+          text-transform: uppercase;
+          font-family: v.$fuente_1;
+          font-weight: bold;
+        }
+
+        &_links {
+          width: 280rem;
+          display: flex;
+          justify-content: space-between;
+
+          &_container {
+            border-bottom: 1px solid v.$verde;
+            transition: 300ms;
+
+            &:hover {
+              scale: 1.2 1.2;
+            }
+
+            a {
+              text-transform: uppercase;
+              letter-spacing: 2rem;
+            }
+          }
         }
       }
     }

@@ -14,19 +14,23 @@ function Proyecto({ proyecto }) {
         <h3>{title}</h3>
 
         <div className="proyectos_container_item_desc_tec">
-          {technologies.map((tec) => (
-            <p>{tec}</p>
+          {technologies.map((tec, i) => (
+            <p key={i}>{tec}</p>
           ))}
         </div>
 
         <div className="proyectos_container_item_desc_links">
-          <a href={urls.live} target="_blank" rel="noopener noreferrer">
-            Ver Proyecto
-          </a>
+          <div className="proyectos_container_item_desc_links_container">
+            <a href={urls.live} target="_blank" rel="noopener noreferrer">
+              Ver Proyecto
+            </a>
+          </div>
 
-          <a href={urls.repository} target="_blank" rel="noopener noreferrer">
-            Ver Codigo
-          </a>
+          <div className="proyectos_container_item_desc_links_container">
+            <a href={urls.repository} target="_blank" rel="noopener noreferrer">
+              Ver Codigo
+            </a>
+          </div>
         </div>
       </div>
     </div>

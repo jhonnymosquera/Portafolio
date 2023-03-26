@@ -1,33 +1,38 @@
-import React from "react";
-import Redes from "../components/Redes";
-import Habilidades from "../components/Habilidades";
-import Proyectos from "../components/Proyectos";
-import Perfil from "../components/Perfil";
-import Contact from "../components/Contact";
+import React from 'react';
+import Redes from '../components/Redes';
+import Habilidades from '../components/Habilidades';
+import Proyectos from '../components/Proyectos';
+import Perfil from '../components/Perfil';
+import Contact from '../components/Contact';
 
 function HomePage() {
   return (
     <main className="home_page">
-      <header className="header">
-        <Redes />
+      <div className="pdd">
+        <header className="header">
+          <Redes />
 
-        <Perfil />
-      </header>
+          <Perfil />
+        </header>
 
-      <hr />
+        <hr />
 
-      <Habilidades />
+        <Habilidades />
 
-      <hr />
+        <hr />
 
-      <Proyectos />
+        <Proyectos />
+      </div>
+
       <Contact />
 
-      <hr />
+      <div className="pdd">
+        <hr />
 
-      <footer className="footer">
-        <Redes />
-      </footer>
+        <footer className="footer">
+          <Redes />
+        </footer>
+      </div>
     </main>
   );
 }

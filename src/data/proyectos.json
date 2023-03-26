@@ -4,8 +4,8 @@
     "title": "News Homepage",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "img": {
-      "avif": "projects/home_page.avif",
-      "webp": "projects/home_page.webp",
+      "avif": "",
+      "webp": "",
       "png": "projects/home_page.png",
       "alt": "News Homepage"
     },
@@ -19,8 +19,8 @@
     "title": "Tip Calculator",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "img": {
-      "avif": "projects/tip_calculator.avif",
-      "webp": "projects/tip_calculator.webp",
+      "avif": "",
+      "webp": "",
       "png": "projects/tip_calculator.png",
       "alt": "News Homepage"
     },
@@ -36,7 +36,7 @@
     "img": {
       "avif": "",
       "webp": "",
-      "png": "projects/adivice_generator_app.png",
+      "png": "projects/adivice_generator.png",
       "alt": "News Homepage"
     },
     "urls": {

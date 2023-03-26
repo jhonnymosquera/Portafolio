@@ -1,31 +1,44 @@
 @use 'variables' as v;
 
 @mixin movil {
-	@media (min-width: v.$movil) {
-		@content;
-	}
+  @media (min-width: v.$movil) {
+    @content;
+  }
 }
 
 @mixin tablet {
-	@media (min-width: v.$tablet) {
-		@content;
-	}
+  @media (min-width: v.$tablet) {
+    @content;
+  }
 }
 
 @mixin desktop {
-	@media (min-width: v.$desktop) {
-		@content;
-	}
+  @media (min-width: v.$desktop) {
+    @content;
+  }
 }
 
 @mixin desktopXL {
-	@media (min-width: v.$desktopXL) {
-		@content;
-	}
+  @media (min-width: v.$desktopXL) {
+    @content;
+  }
 }
 
 @mixin grid($columnas, $gap) {
-	display: grid;
-	grid-template-columns: repeat($columnas, 1fr);
-	gap: $gap;
+  display: grid;
+  grid-template-columns: repeat($columnas, 1fr);
+  gap: $gap;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

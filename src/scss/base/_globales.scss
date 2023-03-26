@@ -3,6 +3,7 @@
 html {
   font-size: 6.25%; /*  1rem = 1px */
   box-sizing: border-box; /*box mnodel*/
+  scroll-behavior: smooth;
 }
 
 *,
@@ -64,9 +65,16 @@ hr {
 }
 
 .contac_button {
-  width: 120rem;
+  width: 130rem;
   padding-bottom: 10rem;
   text-transform: uppercase;
   font-weight: bold;
   border-bottom: 2px solid v.$verde;
+  transition: 400ms;
+
+  letter-spacing: 2rem;
+
+  &:hover {
+    scale: 1.2 1.2;
+  }
 }
