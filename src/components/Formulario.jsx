@@ -5,6 +5,7 @@ export default class Formulario extends Component {
     return (
       <form
         className="form"
+        target='_blank'
         action="https://formsubmit.co/1c5d0f95bb68d41b7eeb616022b3f461"
         method="POST"
       >
