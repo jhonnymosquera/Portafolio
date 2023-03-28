@@ -1,4 +1,3 @@
-import React from 'react';
 import Redes from '../components/Redes';
 import Habilidades from '../components/Habilidades';
 import Proyectos from '../components/Proyectos';

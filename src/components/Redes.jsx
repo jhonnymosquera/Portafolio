@@ -1,4 +1,3 @@
-import React from "react";
 import useContexApp from "../Context/useContextApp";
 
 function Redes() {
@@ -28,7 +27,7 @@ function Redes() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/jhonny-mosquera-a0a14111b/"
+          href="https://www.linkedin.com/in/jhonny-mosquera-076b6a26b/"
           target="_blank"
           rel="noopener noreferrer"
         >

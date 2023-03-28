@@ -1,4 +1,3 @@
-import React from 'react';
 import useContexApp from '../Context/useContextApp';
 import Contact_button from './Contact_button';
 import Picture from './utils/Picture';
