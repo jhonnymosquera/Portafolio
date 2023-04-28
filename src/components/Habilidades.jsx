@@ -1,4 +1,4 @@
-import useContexApp from "../Context/useContextApp";
+import useContexApp from '../Context/useContextApp';
 
 function Habilidades() {
 	let { habilidades } = useContexApp();

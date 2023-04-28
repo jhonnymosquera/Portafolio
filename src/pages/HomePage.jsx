@@ -1,8 +1,8 @@
-import Redes from "../components/Redes";
-import Habilidades from "../components/Habilidades";
-import Proyectos from "../components/Proyectos";
-import Perfil from "../components/Perfil";
-import Contact from "../components/Contact";
+import Redes from '../components/Redes';
+import Habilidades from '../components/Habilidades';
+import Proyectos from '../components/Proyectos';
+import Perfil from '../components/Perfil';
+import Contact from '../components/Contact';
 
 function HomePage() {
 	return (

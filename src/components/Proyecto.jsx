@@ -1,4 +1,4 @@
-import Picture from "./utils/Picture";
+import Picture from './utils/Picture';
 
 function Proyecto({ proyecto }) {
 	let { title, img, technologies, urls } = proyecto;
