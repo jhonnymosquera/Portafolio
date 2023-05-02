@@ -1,6 +1,6 @@
 [
 	{
-		"id": 12312,
+		"id": 1,
 		"title": "Poke Api",
 		"technologies": ["NEXT.js"],
 		"img": {
@@ -15,7 +15,7 @@
 		}
 	},
 	{
-		"id": 12312,
+		"id": 2,
 		"title": "News Homepage",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"img": {
@@ -30,7 +30,7 @@
 		}
 	},
 	{
-		"id": 2123131,
+		"id": 3,
 		"title": "Tip Calculator",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"img": {
@@ -45,7 +45,7 @@
 		}
 	},
 	{
-		"id": 312312,
+		"id": 4,
 		"title": "Advice Generator",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"img": {
@@ -60,7 +60,7 @@
 		}
 	},
 	{
-		"id": 2132312,
+		"id": 5,
 		"title": "Interactive Card Details",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"img": {
@@ -75,7 +75,7 @@
 		}
 	},
 	{
-		"id": 123123,
+		"id": 6,
 		"title": "Notificaciones",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"img": {
@@ -90,7 +90,7 @@
 		}
 	},
 	{
-		"id": 123123,
+		"id": 7,
 		"title": "chart component",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"img": {
