@@ -5,6 +5,8 @@ import Proyecto from './Proyecto';
 export default function Proyectos() {
 	let { proyectos } = useContexApp();
 
+	proyectos = proyectos.toReversed();
+
 	return (
 		<div className="proyectos">
 			<header className="proyectos_header">

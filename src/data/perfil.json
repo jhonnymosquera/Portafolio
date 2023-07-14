@@ -1,12 +1,12 @@
 {
-  "name": "Jhonnn Mosquera",
-  "photo": {
-    "avif": "perfil/jhonny_photo.avif",
-    "webp": "perfil/jhonny_photo.webp",
-    "png": "perfil/jhonny_photo.png",
-    "alt": "News Homepage"
-  },
-  "email": "jhonnymosquera16@gmail.com",
-  "tittle": "Junior Frontend",
-  "description": "Hola soy Jhonnn Mosquera, estudiante de Analisis y Desarrollo de Software, espero ponernos en contacto pronto y poner en practica mis conocimientos."
+	"name": "Jhonnn Mosquera",
+	"photo": {
+		"avif": "perfil/jhonny_photo.avif",
+		"webp": "perfil/jhonny_photo.webp",
+		"png": "perfil/jhonny_photo.png",
+		"alt": "News Homepage"
+	},
+	"email": "jhonnymosquera16@gmail.com",
+	"tittle": "Junior Frontend",
+	"description": "Hola soy Jhonnn Mosquera, estudiante de Analisis y Desarrollo de Software, espero ponernos en contacto pronto."
 }
