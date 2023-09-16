@@ -31,13 +31,13 @@
 	},
 	{
 		"id": 3,
-		"title": "Advice Generator",
+		"title": "Adivice Generator",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"img": {
 			"avif": "projects/adivice_generator.avif",
 			"webp": "projects/adivice_generator.webp",
 			"png": "projects/adivice_generator.png",
-			"alt": "Advice Generator"
+			"alt": "Adivice Generator"
 		},
 		"urls": {
 			"live": "https://advice-generator-app-jjmm.netlify.app/",

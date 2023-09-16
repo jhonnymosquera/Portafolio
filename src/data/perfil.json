@@ -1,5 +1,5 @@
 {
-	"name": "Jhonnn Mosquera",
+	"name": "Jhonny Mosquera",
 	"photo": {
 		"avif": "perfil/jhonny_photo.avif",
 		"webp": "perfil/jhonny_photo.webp",
@@ -7,6 +7,6 @@
 		"alt": "News Homepage"
 	},
 	"email": "jhonnymosquera16@gmail.com",
-	"tittle": "Junior Frontend",
-	"description": "Hola soy Jhonnn Mosquera, estudiante de Analisis y Desarrollo de Software, espero ponernos en contacto pronto."
+	"title": "Junior Frontend",
+	"description": "Hola soy Jhonny Mosquera, estudiante de Análisis y Desarrollo de Software, espero ponernos en contacto pronto."
 }

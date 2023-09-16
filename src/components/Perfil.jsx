@@ -5,7 +5,7 @@ import Picture from './utils/Picture';
 export default function Perfil() {
 	let { perfil } = useContexApp();
 
-	let { photo, tittle, description } = perfil;
+	let { photo, title, description } = perfil;
 
 	return (
 		<div className="perfil">
@@ -14,7 +14,7 @@ export default function Perfil() {
 			</div>
 
 			<div className="perfil_desc">
-				<h1>{tittle} </h1>
+				<h1>{title} </h1>
 
 				<p>{description}</p>
 
