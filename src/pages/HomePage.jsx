@@ -16,7 +16,7 @@ function HomePage() {
 
 				<hr />
 
-				<Habilidades />
+				<Habillidades />
 
 				<hr />
 
